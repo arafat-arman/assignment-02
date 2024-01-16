@@ -2,6 +2,10 @@
 
 body {
   font-family: "Mulish", sans-serif;
+}
+
+main,
+header {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -387,9 +391,10 @@ nav li a {
 }
 /* Newsletter section */
 
-.newsletter-section{
-    display: flex;
-    gap: 24px;
+.newsletter-section {
+  display: flex;
+  gap: 24px;
+  margin: 100px 0;
 }
 .submit {
   color: #fff;
@@ -431,4 +436,20 @@ nav li a {
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
+}
+/* footer section */
+footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 100px 0;
+  max-width: 100%!;
+}
+footer hr {
+  margin: 50px 0;
+  border: 1px solid gray;
+  width: 70%;
 }
