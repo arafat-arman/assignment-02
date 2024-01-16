@@ -1,4 +1,3 @@
-/* Mulish Font from Google */
 
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap");
 
@@ -181,7 +180,7 @@ nav li a {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
   gap: 24px; 
 }
 .grid-item img{
@@ -234,3 +233,150 @@ nav li a {
   grid-row: 3/span 1;
 }
 
+
+.why-choose-us-section{
+margin: 50px 0;
+}
+
+.why-choose-us-title{
+  text-align: center;
+}
+.why-choose-us-cards-container2{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.why-choose-us-card{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+width: 50%;
+height: 284px;
+padding: 32px;
+
+}
+
+.why-choose-us-card-extra{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 50%;
+  margin: 24px auto 0;
+  height: 284px;
+  padding: 32px;
+
+}
+.why-choose-us-card-2{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 50%;
+  height: 284px;
+padding: 32px;
+}
+
+.card-title{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+
+.card-description{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+.deals-section{
+  margin: 50px 0;
+}
+
+.deals-section-title{
+  text-align: center;
+}
+
+
+.deals-card-container-1{
+  background-image: url(../Images/Group39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.deals-card-container-2{
+  background-image: url(../Images/Group40.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.deals-card{
+  width: 50%;
+  padding: 50px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin: 0 55px 0 55px   ;
+border-radius: 16px;
+
+}
+.card-header{
+  display: flex;
+  justify-content: left;
+gap: 24px;
+}
+.card-header-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-title{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 0;
+}
+
+.card-description{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.card-price{
+  color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+}
+
+.btn{
+  color: #FFF;
+font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+padding: 14px 25px;
+border: 0;
+}
+
+.perfect-place-section{
+  margin: 50px 0;
+}
+
+.perfect-place-section-title{
+  text-align: left;
+}
